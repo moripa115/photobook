@@ -1,0 +1,143 @@
+body{
+  font-size: 100%;
+  background-color: #F4F9FF;
+}
+
+li{
+  list-style: none;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+/* header */
+
+#header{
+  margin: 0 auto;
+  padding: 0 2%;
+  width: 980px;
+}
+
+#header h1{
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.mainvisual{
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* index */
+#index{
+  background-color: #ffff;
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+#index ul li{
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+/* detail   */
+#detail{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 10%;
+  margin-top: 60px;
+}
+
+#wrapper{
+  display: flex;
+}
+
+#wrapper img{
+  width: 300px;
+}
+
+#discription{
+  margin-left: 30px;
+  width: 300px;
+}
+
+#discription dl{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#discription dt{
+  width: 30%;
+  font-size: 0.9rem;
+}
+#discription dd{
+  width: 70%;
+  font-size: 0.9rem;
+}
+
+#discription p{
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+#discription a{
+  color: black;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+#discription a:hover{
+  opacity: 0.5;
+}
+
+/* footer  */
+#footer{
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+
+#footer h4{
+  font-size: 0.5rem;
+  font-weight: 200;
+}
+
+/* sp  */
+@media screen and (max-width:600px) {
+  /* mainvisual */
+  .mainvisual{
+    width: 300px;
+  }
+
+  /* index */
+  #index{
+    width: 300px;
+    height: 350px;
+  }
+  /* detail */
+  #detail{
+    width: 300px;
+  }
+  #wrapper{
+    flex-direction: column;
+  }
+
+  #discription{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  
+}
